@@ -7,6 +7,7 @@ const cartSchema = new mongoose.Schema(
             {
                 productId: { type: String },
                 quantity: { type: Number, default: 1, },
+                shotenzo: {tpe: Number, default: 100},
             },
         ],
     },
